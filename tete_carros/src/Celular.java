@@ -3,4 +3,5 @@ public class Celular {
     String sistemaOperacional;
     int memoria;
     float tela;
+    boolean ligado;
 }
