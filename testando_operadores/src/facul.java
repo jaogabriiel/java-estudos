@@ -109,5 +109,36 @@ public class facul {
             default: System.out.println("O número não é 8, 9 ou 10");
             break;
         }
+
+        // for (int i = 0; i < 10; i++) {
+        //     System.out.println("O valor de i é " + i);
+        // }
+
+         int j = 0;
+         do {
+             System.out.println("O valor de j é " + j);
+             j ++;
+         } while (j < 10);
+
+         int k = 0;
+         while (k < 10) {
+             System.out.println("O valor de k é " + k);
+             k = k + 1;
+         }
+
+         int [] l = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+         for (int result : l) {
+             System.out.println("O valor de L é " + result);
+         }
+
+         int m = 0;
+         do {
+            System.out.println("O valor de m é " + m);
+         } while (m != 0);
+
+         int n = 0;
+         while (k != 0) {
+            System.out.println("O valor de k é " + n);
+         }
     }
 }
