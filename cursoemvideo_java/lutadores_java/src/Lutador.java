@@ -102,7 +102,6 @@ public class Lutador {
             }
         }
     
-
     public int getVitorias() {
         return this.vitorias;
     }
