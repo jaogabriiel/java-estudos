@@ -11,7 +11,7 @@ public class Lutador {
         System.out.println("--------------------------------------------------------");
         System.out.println("CHEGOU A HORA! Apresentamos o lutador " + this.getNome());
         System.out.println("Diretamente de " + this.getNacionalidade());
-        System.out.println("Com " + this.getIdade() + "anos e " + this.getAltura());
+        System.out.println("Com " + this.getIdade() + " anos e " + this.getAltura());
         System.out.println("Pesando " + this.getPeso() + "Kg");
         System.out.println(this.getVitorias() + " vitórias");
         System.out.println(this.getDerrotas() + " derrotas e");
@@ -59,7 +59,6 @@ public class Lutador {
     public String getNacionalidade() {
         return this.nacionalidade;
     }
-
     public void setNacionalidade(String nacionalidade) {
         this.nacionalidade = nacionalidade;
     }
@@ -122,5 +121,4 @@ public class Lutador {
     public void setEmpates(int empates) {
         this.empates = empates;
     }
-
 }
