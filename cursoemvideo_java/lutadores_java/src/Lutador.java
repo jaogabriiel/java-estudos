@@ -1,6 +1,7 @@
 public class Lutador {
     private String nome;
     private String nacionalidade;
+    private String sexo;
     private int idade;
     private float altura;
     private float peso;
@@ -38,9 +39,10 @@ public class Lutador {
         this.setEmpates(this.getEmpates() + 1);
     }
 
-    public Lutador(String nome, String nacionalidade, int idade, float altura, float peso, int vitorias, int derrotas, int empates) {
+    public Lutador(String nome, String nacionalidade, String sexo, int idade, float altura, float peso, int vitorias, int derrotas, int empates) {
         this.nome = nome;
         this.nacionalidade = nacionalidade;
+        this.sexo = sexo;
         this.idade = idade;
         this.altura = altura;
         this.setPeso(peso);
@@ -62,6 +64,15 @@ public class Lutador {
     public void setNacionalidade(String nacionalidade) {
         this.nacionalidade = nacionalidade;
     }
+
+    public String getSexo() {
+        return this.sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
     public int getIdade() {
         return this.idade;
     }
