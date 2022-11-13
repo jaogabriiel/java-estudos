@@ -13,26 +13,25 @@ public class Pessoa {
         this.sexo = sexo;
     }
 
-    private String getNome() {
+    public String getNome() {
         return this.nome;
     }
-    private void setNome(String nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    private int getIdade() {
+    public int getIdade() {
         return this.idade;
     }
-    private void setIdade(int idade) {
+    public void setIdade(int idade) {
         this.idade = idade;
     }
 
-    private String getSexo() {
+    public String getSexo() {
         return this.sexo;
     }
-    private void setSexo(String sexo) {
+    public void setSexo(String sexo) {
         this.sexo = sexo;
     }
-
 
 }
