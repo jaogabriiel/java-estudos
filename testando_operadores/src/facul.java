@@ -145,7 +145,7 @@ public class facul {
 
          double nota1 = 0; 
          double nota2 = 0;
-         double media=0;
+         double media = 0;
 
          System.out.println("Digite a primeira e a segunda nota do aluno");
          Scanner s = new Scanner(System.in);
