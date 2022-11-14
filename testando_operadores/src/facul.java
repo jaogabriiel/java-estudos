@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class facul {
     public static void main(String[] args) throws Exception {
           int numeroComparado = 18;
@@ -114,31 +116,43 @@ public class facul {
         //     System.out.println("O valor de i é " + i);
         // }
 
-         int j = 0;
-         do {
-             System.out.println("O valor de j é " + j);
-             j ++;
-         } while (j < 10);
+        //  int j = 0;
+        //  do {
+        //      System.out.println("O valor de j é " + j);
+        //      j ++;
+        //  } while (j < 10);
 
-         int k = 0;
-         while (k < 10) {
-             System.out.println("O valor de k é " + k);
-             k = k + 1;
-         }
+        //  int k = 0;
+        //  while (k < 10) {
+        //      System.out.println("O valor de k é " + k);
+        //      k = k + 1;
+        //  }
 
-         int [] l = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
-         for (int result : l) {
-             System.out.println("O valor de L é " + result);
-         }
+        //  int [] l = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+        //  for (int result : l) {
+        //      System.out.println("O valor de L é " + result);
+        //  }
 
-         int m = 0;
-         do {
-            System.out.println("O valor de m é " + m);
-         } while (m != 0);
+        //  int m = 0;
+        //  do {
+        //     System.out.println("O valor de m é " + m);
+        //  } while (m != 0);
 
-         int n = 0;
-         while (k != 0) {
-            System.out.println("O valor de k é " + n);
-         }
+        //  int n = 0;
+        //  while (k != 0) {
+        //     System.out.println("O valor de k é " + n);
+        //  }
+
+         double nota1 = 0; 
+         double nota2 = 0;
+         double media=0;
+
+         System.out.println("Digite a primeira e a segunda nota do aluno");
+         Scanner s = new Scanner(System.in);
+         nota1 = s.nextDouble();
+         nota2 = s.nextDouble();
+
+         media = (nota1 + nota2) / 2;
+         System.out.println("A média é " + media);
     }
 }
