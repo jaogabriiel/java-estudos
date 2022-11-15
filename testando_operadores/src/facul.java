@@ -143,16 +143,32 @@ public class facul {
         //     System.out.println("O valor de k é " + n);
         //  }
 
-          double nota1 = 0; 
-          double nota2 = 0;
-          double media = 0;
+        //   double nota1 = 0; 
+        //   double nota2 = 0;
+        //   double media = 0;
 
-          System.out.println("Digite a primeira e a segunda nota do aluno");
-          Scanner s = new Scanner(System.in);
-          nota1 = s.nextDouble();
-          nota2 = s.nextDouble();
+        //   System.out.println("Digite a primeira e a segunda nota do aluno");
+        //   Scanner s = new Scanner(System.in);
+        //   nota1 = s.nextDouble();
+        //   nota2 = s.nextDouble();
 
-          media = (nota1 + nota2) / 2;
-          System.out.println("A média é " + media);
+        //   media = (nota1 + nota2) / 2;
+        //   System.out.println("A média é " + media);
+
+        int sabor = 0, qtd = 0;
+        System.out.println("Digite o sabor (1-chocolate e 2-morango)");
+        Scanner s = new Scanner(System.in);
+        sabor = s.nextInt();
+        System.out.println("Digite a quantidade");
+        qtd = s.nextInt();
+        if (sabor == 1) {
+            if (qtd > 3) {
+                System.out.println("Desconto 10%");
+            } else {
+                System.out.println("Desconte 5%");
+            }
+        } else {
+            System.out.println("Sorvete sem desconto");
+        }
     }
 }
